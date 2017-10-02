@@ -368,7 +368,7 @@ void rbtree_free(struct rbtree *root)
 		rbtree_free(root->left);
 	free(root);
 }
-
+//Поиск в глубину (англ. Depth-first search, DFS) — один из методов обхода графа. 
 void rbtree_print_dfs(struct rbtree *root, int level, char *filename )
 {
 	// Пишем в файл все узлы и связи. 
